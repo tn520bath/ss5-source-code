@@ -31,3 +31,19 @@ ss5_source_code/
 ├── ss5_module4_uncertainty/
 ├── ss5_module6_predictive/
 └── validate_*.py
+```
+
+## How to run
+
+Requires Python 3.10 or later.
+
+```bash
+pip install -r requirements.txt
+python validate_orchestrator.py
+```
+
+Each `validate_*.py` script is standalone and should be run from the repository root.
+
+## Scope
+
+Modules 1, 2, 3, 4, 6 and 7 are implemented and validated. Modules 5 (qualitative risk index) and 8 (output persistence) are specified in the report but not implemented in code. The version matching the submitted report is tagged `technical-report-submission-v1`.
