@@ -14,12 +14,12 @@ SS5 converts per-fibre image-analysis measurements into batch-level engineering 
 - uncertainty quantification using GUM / Monte Carlo methods;
 - qualitative risk-index design logic;
 - ML-ready predictive modelling framework;
-- message-handler and output-persistence design support.
+- message handling, plus output-persistence design.
 
 ## Repository structure
 
 ```text
-ss5_source_code/
+ss5-source-code/
 ├── common.py
 ├── main.py
 ├── ss3.py
